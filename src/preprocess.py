@@ -50,6 +50,8 @@ if __name__ == '__main__':
     parser.add_argument("-raw_path", default='../../line_data')
     parser.add_argument("-save_path", default='../../data/')
 
+    parser.add_argument("-nlpcore_path", default='/')
+
     parser.add_argument("-shard_size", default=2000, type=int)
     parser.add_argument('-min_src_nsents', default=3, type=int)
     parser.add_argument('-max_src_nsents', default=100, type=int)
