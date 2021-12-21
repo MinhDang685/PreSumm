@@ -9,3 +9,4 @@ torchtext==0.5
 torchaudio==0.4.0
 folium==0.2.1
 imgaug==0.2.6
+gradio==2.5.2
